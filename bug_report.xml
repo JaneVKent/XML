@@ -1,1 +1,24 @@
-
+<?xml version="1.0" encoding="UTF-8" ?>
+    <BugReport>
+        <ID>123456789</ID>
+        <Title>Registration: Broken image in the letter after registration</Title>
+        <Severity>Major</Severity>
+        <Priority>High</Priority>
+        <CreatedBy>Jane Kent</CreatedBy>
+        <AssignedTo>Nikolay Sheremet'ev</AssignedTo>
+        <Status>Open</Status>
+        <Attachment>link</Attachment>
+      <Environment>All devices/browsers</Environment>
+    <Steps>
+        1. Open front end https://somestuff.com	
+        2: Follow "Account making" link
+        3: Fill required fields with valid data				
+        4: Click "Account making" button
+        5: Check the email that was filled in registration form
+        6: Open the Welcome letter
+        7: Pay attention to the broken image in the letter
+    </Steps>
+        <ActualResult>Broken image in the letter after registration</ActualResult>
+        <ExpectedResult>Image in the letter after registration is displayed correctly</ExpectedResult>
+      <Attachment> image.png </Attachment>
+</BugReport>
